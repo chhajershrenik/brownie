@@ -106,6 +106,18 @@ live:
         host: https://mainnet.boba.network
         explorer: https://blockexplorer.boba.network/api
         multicall2: "0xbe2Be647F8aC42808E67431B4E1D6c19796bF586"
+  - name: Callisto Network
+    networks:
+       - name: Mainnet
+         chainid: 820
+         id: CLO
+         host: https://rpc.callisto.network/
+         explorer: https://explorer.callisto.network
+       - name: Testnet
+         chainid: 20729
+         id: TCLO
+         host: https://testnet-rpc.callisto.network/
+         explorer: https://testnet-rpc.callisto.network/
   - name: Fantom Opera
     networks:
       - name: Testnet
